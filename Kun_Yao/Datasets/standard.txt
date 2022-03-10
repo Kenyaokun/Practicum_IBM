@@ -1,0 +1,8 @@
+Some datasets choices (>500 samples):
+1. Lung Adenocarcinoma (MSKCC, 2020) 604 samples (there is a 2021 version, but the columns are quite different from each other and can not be merged to one large dataset)
+2. Lung Adenocarcinoma (TCGA, Firehose Legacy) 586 samples
+3. Lung Adenocarcinoma (TCGA, PanCancer Atlas) 566 samples
+4. Lung Squamous Cell Carcinoma (TCGA, PanCancer Atlas) 487 samples 
+5. I tried to merge 2&3 dataset, because they have amlost the same columns, but the preprocessing came across some problems, I do not know whether the dataset could be used after I clean them.
+6. Pan-Lung Cancer (TCGA, Nat Genet 2016) 1144 samples
+7. Lung Squamous Cell Carcinoma (TCGA, Firehose Legacy) 511 samples
